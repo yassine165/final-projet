@@ -1,0 +1,495 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    height: 100%;
+    background:  url(https://thumbs.gfycat.com/SaltyUnfitKodiakbear-size_restricted.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+}
+header{
+    width: 100%;
+    height: 10vh;
+    background-position: rgba(0,0,0,0.5);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    width: 300px;
+    height: 10vh;
+    background: #550381;
+    display: flex;
+    align-items: center;
+    color: #fff;
+    clip-path: polygon(0 0, 100% 0,64% 100%, 0% 100%);
+    padding: 10px;
+    line-height: 1.3rem;
+}
+.logo{
+    width: 300px;
+    height: 10vh;
+    background: #550381;
+    display: flex;
+    align-items: center;
+    color: #fff;
+    clip-path: polygon(0 0, 100% 0, 64% 100%, 0% 100%);
+    padding: 10px;
+    line-height: 1.3rem;
+}
+.logo .fas{
+    font-size: 50px;
+}
+.logo p{
+    width: 130px;
+    margin-left: 10px;
+    font-size: 20px;
+}
+ul.navbar{
+    display: flex;
+    list-style: none;
+}
+ul.navbar li{
+    width: 120px;
+}
+ul.navbar li a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+}
+ul.navbar li a.active{
+    color: #fec53a;
+}
+ul.navbar li a:hover:not(.active){
+    color: #fec53a;
+}
+#btn{
+    width: 250px;
+    height: 10vh;
+    background: #fec53a;
+    color: #000;
+    outline: none;
+    border: none;
+    clip-path: polygon(35% 0, 100% 0, 100% 100%, 0 100%);
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-align: right;
+    padding-right: 40px;
+}
+#btn .fas{
+    margin-right: 10px;
+}
+/* Header ends here */
+
+.content-wrapper{
+    width: 80%;
+    min-height: 80vh;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+}
+.content-desc h1{
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+.content-desc p{
+    width: 500px;
+    font-size: 1.3rem;
+    margin-bottom: 10px;
+}
+.content-desc span{
+    color: #fec53a;
+}
+#btn-2{
+    width: 350px;
+    height: 10vh;
+    padding-left: 20px;
+    outline: none;
+    border: none;
+    background: #fec53a;
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-top: 15px;
+    clip-path: polygon(0 0, 74% 0, 100% 100%, 0 100%);
+    border-radius: 20px;
+    text-align: left;
+}
+.rakuto{
+    width: 300px;
+    height: 300px;
+    background: linear-gradient(rgba(38, 2, 39, 0.849),rgba(204, 115, 14));
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+.rakuto::before{
+    content: '';
+    width: 160px;
+    height: 160px;
+    background: url(../images/cube.png);
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    top: 10px;
+    left: 200px;
+}
+.rakuto::after{
+    content: '';
+    width: 300px;
+    height: 300px;
+    background: url(https://www.eggplante.com/wp-content/uploads/2015/08/AC-Promo-Art.jpg);
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    bottom: 0px;
+    left: -150px;
+}
+.logo-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 30px 0;
+}
+.logo-section .fas{
+    font-size: 6rem;
+    color: #FEC53A;
+}
+.logo-section h1{
+    width: 250px;
+    font-size: 2rem;
+    color: #FEC53A;
+    margin-left: 10px;
+}
+/* Section one starts here */
+
+.section-1{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.767),rgba(0, 0, 0, 0.712)),
+    url(../images/fortnit.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+
+}
+.section-1-wrapper{
+    width: 70%;
+    margin: auto;
+}
+.section-1 h1{
+    width: 500px;
+    color: #FEC53A;
+    font-size: 1.5rem;
+    position: relative;
+    font-weight: 400;
+}
+.section-1-img{
+    display: flex;
+}
+.section-1-img .img{
+    width: 100px;
+    height: 130px;
+    background: url(https://m.media-amazon.com/images/M/MV5BOGQxMGM4NzItYjkwMC00MGQ3LThhNWEtYjFkZTQ2ZDg0MjI2XkEyXkFqcGdeQXVyMTA0MTM5NjI2._V1_.jpg);
+    background-size: cover;
+    background-position: center;
+    margin-right: 10px;
+    border-radius: 10px;
+}
+.section-1-img .img-2{
+    background: url(https://asset-a.grid.id/crop/0x0:0x0/360x240/photo/2021/08/10/pubg-battlegroundsjpg-20210810072024.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.section-1-img  .img-3{
+    background: url(https://play-lh.googleusercontent.com/VdKZTeliSs-UFHLHxUQjWeLIGm9J6VArRsynzS-MLOUzip1oFJzYaYoDNvzVAWrIiAKU);
+    background-size: cover;
+    background-position: center;
+}
+.section-1-img  .img-4{
+    background: url(https://static.actugaming.net/media/2020/03/Call-of-Duty-Warzone-804x500.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.section-1-img  .img-5{
+    background: url(https://www.riotgames.com/darkroom/1440/d0807e131a84f2e42c7a303bda672789:3d02afa7e0bfb75f645d97467765b24c/valorant-offwhitelaunch-keyart.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.section-1-img  .img-6{
+    background: url(https://cdn2.unrealengine.com/21br-metaimage-lineup-1920x1080-44acd5f27136.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.section-1-img   .img-7{
+    background: url(https://lh3.googleusercontent.com/YJG84LxJERGeHIQYZ2E8UV_RYWlm_2Ode9_Un99G3qx4O9IahaPfXHoSXqXqedAwGcQF5MKV-4xNPMYtF5prK9w);
+    background-size: cover;
+    background-position: center;
+}
+.section-1-img   .img-8{
+    background: url(https://notagamer.net/wp-content/uploads/2019/05/league-of-legends.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.img:hover{
+    transform: translateY(-10px);
+}
+
+/* Section 3 starts here */
+.game-categories{
+    width: 70%;
+    margin: 50px auto;
+    position: relative;
+}
+.game-categories h1{
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    color: #FEC53A;
+}
+.game-wrapper{
+    display: flex;
+}
+.gw{
+    width: 120px;
+    height: 120px;
+    background: url(https://github.com/Almarex-Web-Dev/my-gaming-website/blob/master/images/asphalt8.jpg?raw=true);
+    background-size: cover;
+    background-position: center;
+    margin: 20px 15px 0 0;
+    border-radius: 10px;
+}
+.gw:hover{
+    transform: translateY(-10px);
+}
+.left{
+    position: relative;
+    right: -140px;
+}
+
+.gw-1{
+    background: url(https://image.jeuxvideo.com/medias-crop-1200-675/163397/1633973192-981-card.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+.gw-2{
+    background: url(data:image/jpeg;base64,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);
+    background-size: cover;
+    background-position: center;
+}
+.gw-3{
+    background: url(https://upload.wikimedia.org/wikipedia/en/f/ff/Assassin%27s_Creed_Valhalla_cover.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.gw-4{
+    background: url(https://upload.wikimedia.org/wikipedia/en/6/67/Counter-Strike_Box.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.gw-5{
+    background: url(https://www.angrybirds.com/wp-content/uploads/2022/05/AB2_202202_800x800_KeyArt_GroupSplash_LogoUp-512x512.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.gw-6{
+    background: url(https://github.com/Almarex-Web-Dev/my-gaming-website/blob/master/images/battle.jpg?raw=true);
+    background-size: cover;
+    background-position: center;
+}
+
+
+.gw-9{
+    background: url(https://cdn1.epicgames.com/offer/9773aa1aa54f4f7b80e44bef04986cea/EGS_RocketLeague_PsyonixLLC_S1_2560x1440-96ba21c538cda908e69be34b1e539c1a);
+    background-size: cover;
+    background-position: center;
+}
+.section-2{
+    width: 100%;
+    height: 50vh;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.767),rgba(0, 0, 0, 0.712)),
+    url(https://github.com/Almarex-Web-Dev/my-gaming-website/blob/master/images/flame.jpg?raw=true);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.section-2 h1{
+    font-size: 2rem;
+    color: #fff;
+    margin: 20px 0;
+}
+.players{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.p-image{
+    width: 200px;
+    height: 200px;
+    background: url(https://c.tenor.com/dXBX-xLJv-YAAAAC/darius-league-of-legends.gif);
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+    position: relative;
+}
+.p-image-1::after{
+    content: 'VS';
+    position: absolute;
+    right: -35px;
+    bottom: 0;
+    font-size: 2rem;
+    color: #FEC53A;
+}
+.players span{
+    font-size: 1.5rem;
+    color: #FEC53A;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.stars{
+    color: #FEC53A;
+}
+.p-image-2{
+    background: url(https://www.mobafire.com/images/champion/skins/portrait/nasus-dreadknight.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.p-image-2{
+    background: url(https://c.tenor.com/LcFmjV5CHQwAAAAd/lol-league-of-legends.gif);
+    background-size: cover;
+    background-position: center;
+}
+.p-image-3::after{
+    content: 'VS';
+    position: absolute;
+    right: -35px;
+    bottom: 0;
+    font-size: 2rem;
+    color: #FEC53A;
+}
+.p-image-3{
+    background: url(https://c.tenor.com/9xiEz_pqEpcAAAAC/god-of-war-kratos.gif);
+    background-size: cover;
+    background-position: center;
+}
+.p-image-4{
+    background: url(https://c.tenor.com/LcbB94yg5l8AAAAC/kratos-god-of-war.gif);
+    background-size: cover;
+    background-position: center;
+}
+/* section 3 starts here */
+
+.section-3{
+    width: 100%;
+    height: 80vh;
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(https://github.com/Almarex-Web-Dev/my-gaming-website/blob/master/images/controller.jpg?raw=true);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.section-3 h1{
+    font-size: 2rem;
+    color: #fff;
+    text-align: center;
+    font-weight: 400;
+}
+
+.section-3-wrapper{
+    display: flex;
+    min-height: 70vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.feedback{
+    width: 250px;
+    height: 300px;
+    background: url(https://github.com/Almarex-Web-Dev/my-gaming-website/blob/master/images/feedback.jpg?raw=true);
+    background-position: center;
+    background-size: cover;
+ 
+}
+.feedback-desc{
+    width: 300px;
+    height: 300px;
+    background: rgba(0, 0, 0, 0.767);
+    padding: 10px;
+    color: #fff;
+    margin-right: 10px;
+}
+.feedback-desc .far{
+    color: #FEC53A;
+    font-size: 30px;
+}
+.f-img-2{
+    background: url(https://github.com/Almarex-Web-Dev/my-gaming-website/blob/master/images/image9.jpg?raw=true);
+    background-position: center;
+    background-size: cover;
+}
+/* FOoter section */
+footer{
+    width: 100%;
+    height: 55vh;
+    background: #282828;
+    display: flex;
+    align-items: center;
+    
+}
+.footer-body{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+}
+.footer-logo{
+    height: 12vh;
+    background-color: #FEC53A;
+    color: #000;
+    line-height: 1.7rem;
+}
+ul h3{
+    color: #fff;
+    font-weight: 450;
+}
+ul li{
+    list-style: none;
+    line-height: 2.5rem;
+}
+ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+ul li a .fab{
+    font-size: 1.2rem;
+    color: #FEC53A;
+    margin-right: 15px;
+}
+ul li a:hover{
+    color: #FEC53A;
+}
+.footer-bottom{
+    width: 100%;
+    height: 7vh;
+    background: #1B1919;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.875rem;
+}
+.footer-bottom span{
+    color: #FEC53A;
+    font-weight: bold;
+}
